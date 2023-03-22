@@ -1868,17 +1868,20 @@ width: 100%;
     display: block;
   }
   
-  .none{
-    display: none;
+  .grid__column-2-2{
+    text-align: center!important;
   }
   
 }
 
 
 @media all and (max-width: 739px){
+  .grid__column-2-2{
+    text-align: center!important;
+  }
   
   .a{
-  transform: translateY(-2px);
+  transform: translateY(-2px)!important;
 }
   
   .none{
@@ -2154,4 +2157,8 @@ width: 100%;
 
 .header__navbar-iteam-footter-btn{
   padding: 6px 0;
+}
+
+.grid__column-2-2{
+  text-align: start;
 }
